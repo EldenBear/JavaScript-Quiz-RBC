@@ -4,9 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <title>Code Quiz</title>
 </head>
 <body>
-    
+<!--Includes high score and timer on top of page-->
+<header>
+    <input type="button" id="high-score-button" onclick="onClickHighScoreButton()" value="View high scores" />
+    <div id="timer">
+        Time: 0
+    </div>
+</header>
+<!--Deals with questions and answers as well as the start quiz page-->
+<div class="quizlet">
+    <div class="card">
+        <h2 id="begin-quiz">Start quiz!</h2>
+        <h2 id="quiz-questions">Question: </h2>
+            <input type="button"  onclick="onClickStart()" value="Start Quiz!" id="start-button" />
+            <form method="post">
+
+              <input type="button" class="button-style" onclick="answerButtons('answer1')" value="A" id="first-button" />
+            
+              <input type="button" class="button-style" onclick="answerButtons('answer2')" value="B" id="second-button" />
+            
+              <input type="button" class="button-style" onclick="answerButtons('answer3')" value="C" id="third-button" />
+           
+              <input type="button" class="button-style" onclick="answerButtons('answer4')" value="D" id="fourth-button" />
+        
+            </form>
+<div class="right-or-wrong" id="rOw">
+
+</div>
+<!--Page shown after time runs out or quiz is finished-->
+<div id="done-page">
+    <h2 id="done-text">All Done!</h2>
+    <p id="show-final-score">Your final score is: </p>
+    <p id="input-text">Enter initials:</p><input id="input-box" type="text"><button onclick="onClickSubmitButton()" id="submit-button">Submit</button>
+</div>
+<!--Page that the high scores are stored in-->
+<div id="high-score-page">
+    <h2 id="hs-text">High Scores</h2>
+    <div id="score-display">
+        
+    </div>
+    <input type="button" value="Go back" id="back-button" onclick="onClickBackButton()">
+    <input type="button" value="Clear high scores" id="clear-button" onclick="onClickClearButton()">
+</div>
+    </div>
+</div>
+<script src="assets/js/script.js"></script>
 </body>
 </html>

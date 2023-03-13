@@ -1,0 +1,106 @@
+/*styling for answer buttons*/
+.button-style{
+    background-color: #c8c8ff;
+    cursor: pointer;
+    display: none;
+    border-radius: 30px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+#start-button{
+    background-color: #c8c8ff;
+    cursor: pointer;
+    border-radius: 30px;
+    height: 50px;
+    width: 100%;
+}
+/*styling for high score button on top of page*/
+#high-score-button{
+    border: none;
+    cursor: pointer;
+    background: none;
+    padding: 0px;
+    display: block;
+    text-decoration: underline;
+    color: #c8c8ff;
+    font-size: 25px;
+}
+/*Puts timer on top right of page*/
+#timer{
+    float: right;
+    font-size: 25px;
+}
+
+#begin-quiz{
+    font-size: 45px;
+    display: grid;
+    justify-content: center;
+}
+
+#quiz-questions{
+    display: none;
+    font-size: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+#rOw{
+    display: none;
+    text-align: center;
+    font-size: 20px;
+    text-decoration-line: overline;
+}
+
+#done-page{
+    display: none;
+}
+
+#done-text{
+    font-size: 35px;
+}
+
+#show-final-score{
+    font-size: 20px;
+}
+
+#high-score-page{
+    display: none;
+    text-align: center;
+}
+
+#hs-text{
+    font-size: 45px;
+}
+
+#score-display{
+    display: table;
+    margin: 0px auto 0px auto;
+    padding: 5px;
+    font-size: 25px;
+    background-color: #c8c8ff;
+    text-decoration-line: underline;
+}
+/*styling for buttons on high score page*/
+#back-button, #clear-button{
+    margin-top: 20px;
+    background-color: #c8c8ff;
+    cursor: pointer;
+    border-radius: 30px;
+    height: 50px;
+}
+
+#done-page{
+    text-align: center;
+}
+
+#submit-button{
+    background-color: #c8c8ff;
+    cursor: pointer;
+    border-radius: 30px;
+    height: 50px;
+    margin-left: 10px;
+}
