@@ -11,5 +11,5 @@ This website is a basic JavaScript fundamentals quiz. It has a timer that also a
 ## Usage
 Screenshot of quiz question:
 
-![Quiz Screenshot](assets/images/JSQuizScreenshot.png)
+![Quiz Screenshot](assets/images/NewQuizScreenshot.png)
 
