@@ -1,3 +1,7 @@
+*{
+    background-color: #696969;
+}
+
 /*styling for answer buttons*/
 .button-style{
     background-color: #c8c8ff;
@@ -17,6 +21,12 @@
     border-radius: 30px;
     height: 50px;
     width: 100%;
+}
+
+#explination{
+    text-align: center;
+    font-size: 35px;
+    display: none;
 }
 /*styling for high score button on top of page*/
 #high-score-button{
