@@ -209,6 +209,8 @@ function onClickHighScoreButton() {
     const startButton = document.getElementById("start-button");
     startButton.style.display = "none";
     const answerButtons = document.getElementsByClassName("button-style");
+    const explination = document.getElementById("explination");
+    explination.style.display = "none";
     for (let index = 0; index < answerButtons.length; index++) {
         const element = answerButtons[index];
         element.style.display = "none";
