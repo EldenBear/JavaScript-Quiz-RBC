@@ -89,6 +89,8 @@ var currentQuestion = 0;
 function onClickStart() {
     const startButton = document.getElementById("start-button");
     startButton.style.display = "none";
+    const explination = document.getElementById("explination");
+    explination.style.display = "none";
     const answerButtons = document.getElementsByClassName("button-style");
     for (let index = 0; index < answerButtons.length; index++) {
         const element = answerButtons[index];
@@ -195,6 +197,8 @@ function onClickBackButton() {
     startButton.style.display = "block";
     const questionButton = document.getElementById("begin-quiz");
     questionButton.style.display = "grid";
+    const explination = document.getElementById("explination");
+    explination.style.display = "block";
     currentQuestion = 0;
     isQuizDone = false;
     const highScoreButton = document.getElementById("high-score-button");
