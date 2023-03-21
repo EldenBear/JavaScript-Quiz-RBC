@@ -1,4 +1,4 @@
-# RBC-Module-4
+# JavaScript-Quiz-RBC
 
 ## Description
 Link to deployed app: https://eldenbear.github.io/RBC-Module-4/
